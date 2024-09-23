@@ -11,4 +11,10 @@ $planInclude = $primePlan || $releaseYear < 2020;
 
 echo "Nome do filme: " . $filmName . "\n";
 echo "Ano: " . $releaseYear . "\n";
-echo "Ano de lançamento " . $releaseYear;
+echo "Ano de lançamento " . $releaseYear . "\n";
+
+if ($releaseYear > 2024) {
+    echo "Esse filme é um lançamento";
+} else {
+    echo "Esse filme não é um lançamento";
+}
