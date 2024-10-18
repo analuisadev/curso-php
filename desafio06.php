@@ -1,7 +1,10 @@
 <?php
-
+function gamePoint($victory, $lose)
+{
     $player = 100;
-    $victory = 20;
-    $lose = 15;
+    $victoryPoints = 20;
+    $losePoints = 15;
 
-    
+
+
+}  

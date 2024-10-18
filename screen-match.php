@@ -19,7 +19,7 @@ if ($releaseYear > 2024) {
     echo "Esse filme não é um lançamento \n";
 }
 
-$classification = match($filmName) {
+$classification = match ($filmName) {
     "Donzela" => "Ficção Científica",
     "O Mundo Depois de Nós" => "Ficção Científica",
     "M3GAN" => "Terror",

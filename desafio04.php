@@ -1,8 +1,8 @@
-<?php 
-    $number = 1;
+<?php
+$number = 1;
 
-    if($number % 2 === 0) {
-        echo "Par";
-    } else {
-        echo "Ímpar";
-    }
+if ($number % 2 === 0) {
+    echo "Par";
+} else {
+    echo "Ímpar";
+}
