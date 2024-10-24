@@ -28,7 +28,6 @@ class Estudante extends Pessoa
         $this->curso = $curso;
     }
 
-
     public function apresentar()
     {
         echo "Meu nome é $this->nome e eu tenho $this->idade anos e estudo $this->curso";

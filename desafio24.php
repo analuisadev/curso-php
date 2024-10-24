@@ -5,7 +5,6 @@ interface FormaGeometrica {
     public function calcularPerimetro();
 }
 
-
 class Quadrado implements FormaGeometrica {
     private $lado;
 
@@ -22,7 +21,6 @@ class Quadrado implements FormaGeometrica {
     }
 }
 
-
 class Circulo implements FormaGeometrica {
     private $raio;
 
@@ -38,7 +36,6 @@ class Circulo implements FormaGeometrica {
         return 2 * pi() * $this->raio;
     }
 }
-
 
 $quadrado = new Quadrado(5);
 echo "Quadrado - Área: " . $quadrado->calcularArea() . "\n";

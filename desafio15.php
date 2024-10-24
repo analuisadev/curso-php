@@ -6,5 +6,4 @@ $user = [
     "email" => "ana@example.com"
 ];
 
-
 echo $user['name'] . "\n" . $user['age'] . "\n" . $user['email'];

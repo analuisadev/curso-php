@@ -1,9 +1,9 @@
 <?php
 
-$shoppings = array(70, 55, 100, 25, 10);
-
+$shoppings = array(70.80, 55, 100, 25.50, 10.99);
+$total = 0;
 foreach($shoppings as $shopping) {
-    $shopping.array_sum($shopping). "";
-
-    echo $shopping;
+    $total += $shopping;
 }
+
+echo number_format($total, 2);

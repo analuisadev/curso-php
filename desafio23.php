@@ -8,13 +8,13 @@ class Animal {
 
 class Cachorro extends Animal {
     public function fazerSom() {
-        echo "O cachorro está latindo.";
+        echo "O cachorro está latindo." . "\n";
     }
 }
 
 class Gato extends Animal {
     public function fazerSom() {
-        echo "O gato está miando.";
+        echo "O gato está miando." . "\n";
     }
 }
 

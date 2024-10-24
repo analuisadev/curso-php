@@ -6,7 +6,7 @@
     <title>Resultado Formulário 1</title>
 </head>
 <body>
-    
+
     <?php
     if ((!filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) && empty($_POST['name'])) { 
         echo "<p>Endereço de e-mail ou nome inválido</p>";

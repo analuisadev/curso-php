@@ -6,7 +6,7 @@ $studentsNotes = [
     "William Bonner " => 7.7 
 ];
 
-$average = ($studentsNotes['angelinaNote'] + $studentsNotes['josephNote'] + $studentsNotes['millerNote']) / 3;
+$average = ($studentsNotes['Angeline Jolie'] + $studentsNotes['Joseph Miller'] + $studentsNotes['William Bonner']) / 3;
 
 foreach($studentsNotes as $student => $studentNote ) {
     echo "Aluno: $student \nNota: $studentNote \n";
